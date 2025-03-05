@@ -19,5 +19,6 @@ class Bike : Vehicle
     {
         Bike b = new Bike();
         b.TVS();
+        b.two_wheeler();
     }
 }
