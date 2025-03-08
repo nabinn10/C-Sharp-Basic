@@ -18,7 +18,7 @@ public class Arithmetic{
         Console.WriteLine("The subtraction is "+sub);
         Console.WriteLine("The multiplication is "+mul);
         Console.WriteLine("The division is "+div);
-        Console.WriteLine("The modulus is "+mod);
+        Console.WriteLine("The modulus is "+mod); 
 
 
     }
