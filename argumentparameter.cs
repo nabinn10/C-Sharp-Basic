@@ -1,13 +1,23 @@
-using Systme;
-class HEllo{
+using System;
+class Hello
+{
     public static void Main()
     {
-        int a,b;
-        System.Console.WriteLine("EThe sum of "+a+" and "+b+" is "+sum(a,b));
+        int a, b;
+        
+        // Getting user input
+        Console.Write("Enter first number: ");
+        a = Convert.ToInt32(Console.ReadLine());
+
+        Console.Write("Enter second number: ");
+        b = Convert.ToInt32(Console.ReadLine());
+
+        // Calling sum function
+        Console.WriteLine("The sum of " + a + " and " + b + " is " + sum(a, b));
     }
-    public static sum(int a , int b)
+
+    public static int sum(int a, int b) // Fixed method return type
     {
-        int sum=a+b;
-        return sum;
+        return a + b;
     }
 }
