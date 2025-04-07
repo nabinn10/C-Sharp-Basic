@@ -6,7 +6,7 @@ class Program
     public int age;
     public string gender;
     // constructor
-    Program(string name, int age, string gender)
+    public void Programs(string name, int age, string gender)
     {
         this.name = name;
         this.age = age;
@@ -21,10 +21,10 @@ class Program
 
     static void Main()
     {
-        Program p = new Program("Nabin", 22, "Male");
+        Program p = new Program();
+        p.Programs("Nabin", 22, "Male");
         p.show();
-        Program v = new Program("Sabin", 22, "Male");
-        v.show();
+       
     }
 
 }
