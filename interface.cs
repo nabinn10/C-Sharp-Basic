@@ -31,4 +31,4 @@ class Program
         obj.MethodA();
         obj.MethodB();
     }
-}
+} 
