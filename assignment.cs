@@ -6,11 +6,11 @@ class Person{
 class Employee : Person
 {
 
-    public void emp_details()
+    public void emp_details(string postion)
     {
-        Console.WriteLine("This is the employee's details.");
+        Console.WriteLine("This is the employee's details from employee."+postion);
     }
-
+    
    
 }
 class Manager : Employee
@@ -27,6 +27,6 @@ class Program
     {
         Manager m = new Manager();
         m.Department();
-        m.emp_details();
+        m.emp_details("Manager");
     }
 }
