@@ -1,30 +1,30 @@
 using System;
 
-interface Rose
+abstract class Shape
 {
-     void rosecolor(string color);
-}
-interface Lily
-{
-     void lilycolor(string color);
-}
-class Flower : Rose, Lily
-{
-    public void rosecolor(string color) 
+    public abstract void Draw(); // Abstract method (no implementation)
+    
+    public void Display() // Concrete method (with implementation)
     {
-        Console.WriteLine("Flower color: "+ color);
+        Console.WriteLine("This is a shape.");
     }
-    public void lilycolor(string color) 
+}
+
+class Circle : Shape
+{
+    public override void Draw() // Providing implementation for the abstract method
     {
-        Console.WriteLine("Lily color: " + color);
+        Console.WriteLine("Drawing a Circle.");
     }
+}
+
+class Program
+{
     public static void Main(string[] args)
     {
-        Flower f = new Flower();
-        f.rosecolor("Red");
-        f.lilycolor("White");
+        Shape shape = new Circle(); // Polymorphism
+        shape.Display();
+        shape.Draw();
     }
 }
-
-
 
