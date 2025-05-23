@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mysql", "Mysql", "{AF3A6103-DF1E-859D-843E-88EC72220A8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mysql", "Mysql\Mysql\Mysql.csproj", "{4C73E0B2-DDD3-4546-2575-65707132E0DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C73E0B2-DDD3-4546-2575-65707132E0DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C73E0B2-DDD3-4546-2575-65707132E0DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C73E0B2-DDD3-4546-2575-65707132E0DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C73E0B2-DDD3-4546-2575-65707132E0DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4C73E0B2-DDD3-4546-2575-65707132E0DE} = {AF3A6103-DF1E-859D-843E-88EC72220A8C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB5556DD-BFAB-4A65-B216-2BD090F64E33}
+	EndGlobalSection
+EndGlobal
