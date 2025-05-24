@@ -2,7 +2,6 @@ using System;
 using MySql.Data.MySqlClient;
 using MySql.Data;
 
-
 class Program
 {
     static string connStr = "Server=localhost;Database=dotnet;Uid=root;Pwd=;";
